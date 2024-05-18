@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+
+  .container {
+    @apply mx-auto w-full px-[30px] sm:w-[540px] md:w-[720px] md:px-[15px] lg:w-[960px] xl:w-[1110px] 2xl:w-[1320px];
+  }
+
+  .container-fluid {
+    @apply mx-auto w-full px-[30px] md:px-[15px];
+  }
+}
+
+/* @layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+} */

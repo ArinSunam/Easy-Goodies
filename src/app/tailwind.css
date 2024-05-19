@@ -11,6 +11,10 @@
   .container-fluid {
     @apply mx-auto w-full px-[30px] md:px-[15px];
   }
+
+  .underline-after::after {
+    @apply block h-[3px] w-[60px] content-[''] bg-primary mx-auto mt-1;
+  }
 }
 
 /* @layer utilities {

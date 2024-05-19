@@ -14,13 +14,13 @@ const Services = () => {
     },
     {
       icon: <FaSync />,
-      title: '24/7 Support',
-      desc: 'Get support all day'
+      title: 'Refund',
+      desc: 'Get Refund Within 3 days'
     },
   ]
 
   return (
-    <div className="bg-[#f5f5f5] py-[40px]">
+    <div className="bg-[#f5f5f5] py-[80px]">
       <div className="container flex justify-between ">
         {serviceData.map((el, index) => (
           <div key={index} className="flex items-center gap-4">
@@ -28,8 +28,8 @@ const Services = () => {
               <span className="text-primary text-2xl ">{el.icon}</span>
             </div>
             <div className="text-secondary">
-              <h3>{el.title}</h3>
-              <p>{el.desc}</p>
+              <h3 className=" text-lg font-bold">{el.title}</h3>
+              <p className="text-[14px]">{el.desc}</p>
             </div>
 
           </div>

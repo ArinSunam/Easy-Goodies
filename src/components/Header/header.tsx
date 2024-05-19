@@ -9,16 +9,17 @@ import { useEffect, useState } from "react";
 const Header = () => {
   const [scrollStart, setScrollStart] = useState(false)
 
-  useEffect(() => {
-    const handleScroll = () => {
-      const scrolled = window.scrollY;
-      scrolled > 10 ? setScrollStart(true) : setScrollStart(false);
-    }
 
-    window.addEventListener('scroll', handleScroll);
+  const handleScroll = () => {
+    const scrolled = window.scrollY;
+    scrolled > 10 ? setScrollStart(true) : setScrollStart(false);
+  }
 
-    return () => window.removeEventListener('scroll', handleScroll)
-  }, [])
+  window.addEventListener('scroll', handleScroll);
+
+  console.log(window)
+  // return () => window.removeEventListener('scroll', handleScroll)
+
 
 
   return (

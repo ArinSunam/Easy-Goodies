@@ -23,7 +23,7 @@ const Header = () => {
 
 
   return (
-    <div className={`${scrollStart ? "bg-secondary" : "bg-transparent"} duration-500 fixed w-full py-[20px] text-body`} >
+    <div className={`${scrollStart ? "bg-secondary" : "bg-transparent"} duration-500 fixed w-full py-[20px] text-body z-20`} >
       <div className=" container flex items-center justify-between">
         {/* Logo */}
         <div className="text-[22px] font-bold">

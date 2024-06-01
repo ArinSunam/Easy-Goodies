@@ -1,5 +1,7 @@
+import About from "@/components/About";
 import MonthlyDeal from "@/components/MonthlyDeal";
 import Banner from "@/components/common/Banner";
+import Offer from "@/components/common/Offer";
 import ProductList from "@/components/common/ProductList";
 import TestimonialCourasel from "@/components/common/TestimonialCourasel";
 import Services from "@/components/services";
@@ -27,6 +29,8 @@ export default function Home() {
       </div>
       <MonthlyDeal />
       <TestimonialCourasel />
+      <About />
+      <Offer />
 
     </main>
   );

@@ -29,7 +29,7 @@ const PageLinks = () => {
     },
     {
       title: 'Shop',
-      url: '#'
+      url: '/shop'
     },
   ]
   return (
